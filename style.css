@@ -1,3 +1,5 @@
+
+
 .center {
   text-align: center;
 }
@@ -7,10 +9,24 @@ ul {
   padding: 0;
 }
 
+.guess {
+  display: inline;
+  border: 1px solid black;
+  border-radius: 10%;
+  font-size: 60px;
+  padding: 0 25px;
+}
+
 img {
   display: inline;
   width: 200px;
   height: 100px;
+}
+
+
+#input-parent {
+  width: 160px;
+  margin: 0 auto;
 }
 
 #footer {
@@ -19,4 +35,5 @@ img {
   background-color: white;
   position: fixed;
   bottom: 0;
+  margin: 0 auto;
 }
