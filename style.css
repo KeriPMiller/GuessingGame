@@ -1,4 +1,14 @@
 
+body {
+  background-image: url('images/william-bout-264826.jpg');
+  background-position: center;
+}
+
+#app {
+  width: 60%;
+  margin: 50px auto;
+  background-color: rgba(256, 256, 256, 0.5);
+}
 
 .center {
   text-align: center;
@@ -23,10 +33,26 @@ img {
   height: 100px;
 }
 
-
 #input-parent {
   width: 160px;
-  margin: 0 auto;
+  margin: 5% auto 50px;
+  position: relative;
+}
+
+#player-input {
+  height: 160px;
+  width: 160px;
+  border-radius: 300px;
+  font-size: 60px;
+}
+
+#submit {
+  height: 60px;
+  width:  60px;
+  border-radius: 50%;
+  position: absolute;
+  top: 110px;
+  left: 110px;
 }
 
 #footer {
