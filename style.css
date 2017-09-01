@@ -1,3 +1,5 @@
+/*changed app margin and guess font size to fit above footer on my screen*/
+
 
 body {
   background-image: url('images/william-bout-264826.jpg');
@@ -6,7 +8,7 @@ body {
 
 #app {
   width: 60%;
-  margin: 50px auto;
+  margin: 30px auto;
   background-color: rgba(256, 256, 256, 0.5);
 }
 
@@ -21,10 +23,11 @@ ul {
 
 .guess {
   display: inline;
-  border: 1px solid black;
+  border: 1px solid grey;
   border-radius: 10%;
-  font-size: 60px;
+  font-size: 40px;
   padding: 0 25px;
+  background-color: white;
 }
 
 img {
@@ -42,7 +45,7 @@ img {
 #player-input {
   height: 160px;
   width: 160px;
-  border-radius: 300px;
+  border-radius: 50%;
   font-size: 60px;
 }
 
