@@ -1,2 +1,3 @@
-#Guessing Game#
-###JavaScript and jQuery Exercises###
+Guessing Game
+
+JavaScript and jQuery Exercises
